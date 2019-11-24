@@ -1,0 +1,10 @@
+/* ----------------------------- *\
+        SECCION CORAZON
+\* ----------------------------- */
+
+const corazon = document.getElementById('corazon');
+            
+// Evento que asigna / quita un clase, la cual, asigna la animacion al elemento
+corazon.addEventListener('click', () => {
+    corazon.classList.toggle('is-liked');
+});
